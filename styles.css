@@ -1108,12 +1108,12 @@ img {
     box-shadow: 0 0 0 4px rgba(255,176,34,0.12), 0 8px 16px rgba(0,0,0,0.2);
 }
 
-.node-1 { top: 11%; left: 9%; }
-.node-2 { top: 11%; right: 9%; }
-.node-3 { top: 31%; right: 1%; }
-.node-4 { top: 62%; right: 3%; }
-.node-5 { bottom: 12%; right: 18%; }
-.node-6 { bottom: 12%; left: 18%; }
+.node-1 { top: 11%; left: 25%; }
+.node-2 { top: 11%; right:25%; }
+.node-3 { top: 40%; left: 5%; }
+.node-4 { bottom: 50%; right: 5%; }
+.node-5 { bottom: 12%; left: 18%; }
+.node-6 { bottom: 12%; right: 18%; }
 
 .ring-center {
     position: absolute;

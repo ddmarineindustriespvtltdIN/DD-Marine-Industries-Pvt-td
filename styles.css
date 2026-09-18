@@ -1067,19 +1067,20 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.32rem;
-    width: 128px;
-    max-width: 128px;
+    gap: 0.25rem;
+    width: 104px;
+    max-width: 104px;
     text-align: center;
     color: #fff;
-    font-size: 0.54rem;
+    font-size: 0.45rem;
     font-weight: 700;
-    line-height: 1.15;
+    line-height: 1.05;
+    letter-spacing: 0.02em;
     text-transform: uppercase;
     z-index: 2;
     transform: rotate(0deg);
     transform-origin: center center;
-    padding: 0.45rem 0.25rem;
+    padding: 0.35rem 0.2rem;
     border-radius: 12px;
     background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));
     border: 1px solid rgba(255,255,255,0.1);
@@ -1089,13 +1090,13 @@ img {
 
 .service-node span {
     display: block;
-    max-width: 112px;
+    max-width: 88px;
     text-shadow: 0 1px 8px rgba(0,0,0,0.4);
 }
 
 .service-node .node-icon {
-    width: 36px;
-    height: 36px;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
     background: radial-gradient(circle at 35% 30%, #ffe7ae 0%, #f0b84d 22%, #d78b20 58%, rgba(23,39,66,0.95) 100%);
     border: 2px solid rgba(255,255,255,0.38);
@@ -1103,20 +1104,20 @@ img {
     align-items: center;
     justify-content: center;
     color: #17253a;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     box-shadow: 0 0 0 4px rgba(255,176,34,0.12), 0 8px 16px rgba(0,0,0,0.2);
 }
 
-.node-1 { top: 8%; left: 12%; }
-.node-2 { top: 8%; right: 12%; }
-.node-3 { top: 31%; right: 4%; }
-.node-4 { top: 61%; right: 6%; }
-.node-5 { bottom: 11%; right: 18%; }
-.node-6 { bottom: 11%; left: 18%; }
+.node-1 { top: 11%; left: 9%; }
+.node-2 { top: 11%; right: 9%; }
+.node-3 { top: 31%; right: 1%; }
+.node-4 { top: 62%; right: 3%; }
+.node-5 { bottom: 12%; right: 18%; }
+.node-6 { bottom: 12%; left: 18%; }
 
 .ring-center {
     position: absolute;
-    inset: 24% 26%;
+    inset: 24% 24%;
     z-index: 3;
     display: flex;
     flex-direction: column;
@@ -1124,7 +1125,7 @@ img {
     justify-content: center;
     text-align: center;
     color: #fff;
-    padding: 1rem;
+    padding: 0.8rem;
     border-radius: 50%;
     background: linear-gradient(180deg, rgba(7,18,33,0.78), rgba(9,23,41,0.9));
     border: 3px solid rgba(255,255,255,0.18);
